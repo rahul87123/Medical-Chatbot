@@ -1,0 +1,348 @@
+/* App.css */
+
+/* General styling */
+body {
+  background-image: url("./assets/images/bg.jpg");
+  /* background-color: #707890 !important; */
+  background-size: cover;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+html {
+  font-family: "Rubik", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+.glfuN {
+  background-color: #2874f0 !important;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust chatbot bubble padding */
+  .rsc-ts-bubble {
+    padding-bottom: 20px;
+  }
+
+  /* Adjust chatbot container */
+  .rsc-ts {
+    padding-bottom: 40px;
+  }
+
+  /* Adjust card style for smaller screens */
+  .cardStyle {
+    height: auto;
+  }
+
+  /* Adjust card image for smaller screens */
+  .cardStyle img {
+    height: 150px !important;
+  }
+
+  /* Adjust font size for smaller screens */
+  .lifvqk {
+    font-size: 24px;
+  }
+}
+
+/* Other existing styles */
+
+.App {
+  text-align: center;
+  background-color: var(--body_background);
+}
+
+#root {
+  height: 100vh;
+
+}
+
+.rsc-ts-bubble {
+  padding-bottom: 40px;
+  white-space: pre-wrap;
+}
+
+.chatbot-container {
+  margin: 20px; /* Adjust margins as needed */
+  margin-top: 20px;
+}
+.hDUXUW {
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
+}
+.fBGGBn {
+  height: 80% !important;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust margins and width for smaller screens */
+  .chatbot-container {
+    margin: 10px;
+  }
+}
+
+.chatbot {
+  width: 100%; /* Adjust the width to your preference */
+  margin: 0 auto; /* Center horizontally */
+}
+.dPdbIW {
+  background: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+
+.rsc-header {
+  background-color: #498fff !important;
+}
+
+.rounded-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: #498fff; /* White color with transparency */
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  margin: 10px auto;
+}
+
+.box-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.box-content p {
+  font-family: "Rubik", sans-serif !important;
+  font-size: 18px;
+  margin: 0 auto;
+  color: white;
+  font-weight: bolder;
+}
+
+
+
+.mainContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 74px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  font-family:"Rubik", sans-serif;
+  color: #7528f0;
+}
+.lol{
+  color: aqua;
+}
+
+.resultContainer, .historyItem { 
+  flex-direction: row;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+
+.inputBox {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+.inputButton{
+  border: none;
+  background: rgb(21, 94, 228);
+  color: white;
+  padding: 12px 24px;
+  margin: 8px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.inputButtonp{
+  border: none;
+  background: rgb(21, 94, 228);
+  color: white;
+  padding: 2px 24px;
+  margin: 8px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ip{
+  border: none;
+  background: rgb(21, 94, 228);
+  color: white;
+  padding: 12px 14px;
+  margin: 28px;
+  margin-left: 670px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+/* .ip:hover{
+  background-color: aqua;
+  color: black;
+} */
+/* .inputButton:hover{
+  background-color: aqua;
+  color: black;
+} */
+/* RGB: (66, 133, 244)   RGB: (66, 133, 244)     RGB: (244, 160, 0)  RGB: (15, 157, 88) */
+
+.inputButton1{
+  border: none;
+  /* color:  linear-gradient(to right, rgb(66, 133, 244), rgb(219, 68, 55), rgb(244, 160, 0), rgb(15, 157, 88)); */
+
+  
+  padding: 12px 24px;
+  margin: 8px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.inputButton1:hover{
+  background-color: aqua;
+  color: black;
+}
+.btkabox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.ipkabox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* services */
+#services{
+  padding: 30px 0;
+}
+.services-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+
+}
+.services-list div{
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+
+}
+.services-list div i{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.services-list div p{
+  font-size: 20px;
+  
+}
+.services-list div h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+.services-list div a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.services-list div:hover{
+  background:  #73a9ff;
+  transform: translateY(-10px);
+}
+.sub-title{
+  color:  #498fff ;
+  display: flex;
+  font-size: 74px;
+ 
+  justify-content: center;
+}
